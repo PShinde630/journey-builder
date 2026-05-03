@@ -47,9 +47,20 @@ http://localhost:3000/api/v1/1/actions/blueprints/bp_01jk766tckfwx84xjcxazggzyc/
 
 ### 2. Start This App
 
-In this repository:
+In another terminal, clone and run this React app:
 
 ```bash
+cd ~
+git clone https://github.com/PShinde630/journey-builder.git
+cd journey-builder
+npm install
+npm run dev
+```
+
+If you already cloned this repository, run:
+
+```bash
+cd ~/journey-builder
 npm install
 npm run dev
 ```
