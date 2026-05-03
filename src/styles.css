@@ -409,7 +409,10 @@ p {
 
 .source-option {
   display: grid;
-  grid-template-columns: minmax(130px, 0.45fr) minmax(130px, 0.45fr) auto;
+  grid-template-columns: minmax(130px, 0.45fr) minmax(130px, 0.45fr) minmax(
+      145px,
+      0.3fr
+    );
   gap: 12px;
   align-items: center;
   width: 100%;
@@ -446,11 +449,14 @@ p {
 }
 
 .source-option code {
+  display: block;
   padding: 4px 7px;
   border-radius: 999px;
   background: #eef2f7;
   font-family: inherit;
   font-weight: 700;
+  text-align: center;
+  width: 100%;
 }
 
 @media (max-width: 900px) {
